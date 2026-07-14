@@ -42,7 +42,7 @@ GRAY_CORE = (240, 240, 240)
 GRAY_INNER = (160, 160, 160)  
 GRAY_OUTER = (90, 90, 90)     
 
-# ★追加: スタート画面（準備はよい？）やゲームオーバー画面（スイパラ確定など）用の大きな日本語フォント
+# ★追加: スタート画面（準備はよい？）やゲームオーバー画面用の大きな日本語フォント
 if sys.platform == "win32":
     font_ja = pygame.font.SysFont("msgothic", 24)      
     font_word = pygame.font.SysFont("msgothic", 28)
